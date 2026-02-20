@@ -1,0 +1,23 @@
+.custom-btn {
+  padding: 12px 18px;
+  margin: 10px 5px;
+  border: none;
+  border-radius: 8px;
+  background-color: #6d1f3c; /* vinho */
+  color: #f8f5f2; /* off-white */
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #8a2d4f; /* vinho mais claro */
+  transform: translateY(-2px);
+}
+
+.custom-btn:disabled {
+  background-color: #b8aeb2;
+  cursor: not-allowed;
+  transform: none;
+}
