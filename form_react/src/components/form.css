@@ -1,0 +1,87 @@
+/* ===== Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== Container principal ===== */
+.container {
+  min-height: 100vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: #ffffff; /* fundo branco */
+}
+
+/* ===== Título ===== */
+.container h1 {
+  color: #2f2f2f; /* cinza escuro */
+  font-size: 3rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* ===== Form ===== */
+form {
+  background: #ffffff;
+  padding: 40px;
+  width: 600px;
+  border-radius: 16px;
+
+  border: 2px solid #800020; /* vinho */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ===== Labels ===== */
+label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  color: #333333; /* cinza escuro */
+}
+
+/* ===== Inputs ===== */
+input,
+textarea,
+select {
+  margin-top: 5px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #cccccc;
+  font-size: 16px;
+  color: #2f2f2f;
+}
+
+/* ===== Focus efeito vinho ===== */
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border: 2px solid #800020; /* vinho */
+}
+
+/* ===== Botão ===== */
+button {
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background: #800020; /* vinho */
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #5c0016; /* vinho mais escuro */
+}
